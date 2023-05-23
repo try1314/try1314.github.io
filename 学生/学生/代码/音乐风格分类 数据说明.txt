@@ -1,0 +1,15 @@
+属性描述	
+chroma_stft	Chroma features 是音乐音频的一种有趣而强大的表示，其中整个频谱被投射到 12 个 bins 上，代表音乐八度音阶的 12 个不同的半音（或色度）
+rmse	表征信号能量的方法，原始歌声的声学特征
+spectral_centroid	代表了声音的“质心”所在位置，与整个长度相同的布鲁斯风格歌曲相比，金属歌曲在结尾处有更高的频率，频谱频谱质心将接近其末端
+spectral_bandwidth	音乐频谱带宽
+rolloff	信号形状的度量，表示每帧的滚降系数。即表示总频谱能量的百分比（例如 85%）低于该频率。
+zero_crossing_rate	信号从正变为负或反向的速率，已大量用于语音识别和音乐信息检索。对于金属和摇滚中的高打击乐声音，它通常具有更高的值
+mfcc1-mfcc20	Mel-Frequency Cepstral Coefficients - the way in which humans perceive sound（梅尔频率倒谱系数），一组特征，简明地描述了频谱包络的整体形状，可以模拟人声的特征
+label	音乐风格类别标签（共10类）
+	
+	
+	
+更多参考	
+https://blog.csdn.net/pk296256948/article/details/118103558	
+https://blog.csdn.net/weixin_38739735/article/details/128024413	
